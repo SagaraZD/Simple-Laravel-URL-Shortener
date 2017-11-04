@@ -1,0 +1,68 @@
+/* CSS Document */
+
+h1, h2, h3, input, label, span, a, p, table, li, ul{font-family: 'Roboto', sans-serif;}
+
+.content{
+padding-top: 5%;
+text-align: center;
+}
+
+.main-inputs{
+width: 78%;
+float: left;
+height: 50px;
+}
+
+.main-button{
+    height: 50px;
+    width: 190px;
+    margin-left: 10px;
+    float: right;
+}
+form{
+padding-top: 30px;
+}
+
+@media (min-width: 1200px) {  
+.container {
+    width: 968px;
+}
+}
+
+.code{
+padding-top: 25px;
+}
+
+
+table{
+text-align: left;
+}
+
+.navbar-inverse {
+background-color: #337ab7;
+border-color: #337ab7;
+border-radius: 0px;
+
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+color: #fff;
+}
+
+.signupForm{
+background: #eee;
+}
+
+@media screen and (max-width: 990px) {
+.main-button {
+    height: 50px;
+    width: 190px;
+    margin-left: 0;
+    float: left;
+    margin-top: 18px;
+}
+}
